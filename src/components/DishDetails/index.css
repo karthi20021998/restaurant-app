@@ -1,0 +1,111 @@
+.eachdish-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid lightgray;
+  padding: 10px;
+  margin: 10px;
+}
+
+.veg-border {
+  border: 1px solid #00923f;
+  align-self: flex-start;
+}
+
+.non-veg-border {
+  border: 1px solid #92282a;
+}
+
+.veg-round {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #00923f;
+  margin: 5px;
+}
+
+.non-veg-round {
+  background-color: #92282a;
+}
+
+.dishdetails-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.dish-name {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: black;
+}
+
+.dish-price {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: grey;
+}
+
+.dish-description {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: rgb(160, 157, 157);
+}
+
+.dish-button-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  height: 40px;
+  width: 120px;
+  border: 1px solid green;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.dish-button {
+  font-size: 30px;
+  border: 0px solid;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.dish-cals {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: rgb(255, 123, 0);
+}
+
+.dish-image {
+  height: 100px;
+  width: 80px;
+}
+
+.not-available {
+  font-size: 15px;
+  font-family: 'sans-serif';
+  color: red;
+  font-weight: 200;
+}
+
+.custom-text {
+  font-size: 15px;
+  font-family: 'sans-serif';
+  color: blueviolet;
+  font-weight: 200;
+}
+
+.addtocart-btn {
+  background-color: aqua;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  border: 0px;
+  margin-top: 10px;
+  cursor: pointer;
+}

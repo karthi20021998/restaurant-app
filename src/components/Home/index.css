@@ -1,0 +1,6 @@
+.menu-card {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

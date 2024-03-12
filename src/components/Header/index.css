@@ -1,0 +1,60 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.sub-card {
+  display: flex;
+  align-items: center;
+}
+.restaurant-name {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: brown;
+  line-height: 10px;
+  margin-left: 40px;
+}
+.cart-icon-button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.cart-icon {
+  height: 60px;
+  width: 60px;
+  color: chocolate;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.logout-btn {
+  background-color: #0099ff;
+  height: 40px;
+  width: 150px;
+  border: 0px;
+  border-radius: 8px;
+  line-height: 10px;
+  color: #363535;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.cart-count-card {
+  display: flex;
+  align-items: center;
+}
+.cart-count-badge {
+  font-size: 22px;
+  font-family: 'sans-serif';
+  font-weight: 600;
+  color: crimson;
+  margin-bottom: 60px;
+}
